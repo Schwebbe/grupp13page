@@ -1,0 +1,53 @@
+body {
+ 
+    /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+    background: #333;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-2 {
+    min-width: 100%;
+    background-color: white;
+    min-height: 700px;
+}
+
+.nav-white {
+    color: white !important;
+}
+
+
+/* The only rule that matters */
+
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.intro {
+    height: 100vh;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100% !important;
+}
+
+/* MOBILE LAYOUT */
+@media screen and (max-width: 480px) {
+    .navbar {
+        background-color: lightgreen;
+    }
+}

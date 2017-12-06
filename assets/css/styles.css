@@ -15,7 +15,9 @@ body {
 .nav-white {
     color: white !important;
 }
-
+.center {
+    text-align: center;
+}
 
 /* The only rule that matters */
 
@@ -48,6 +50,6 @@ body {
 /* MOBILE LAYOUT */
 @media screen and (max-width: 480px) {
     .navbar {
-        background-color: lightgreen;
+        background-color:#141414;
     }
 }

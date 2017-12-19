@@ -77,4 +77,7 @@ body {
     video .intro {
         display: none;
     }
+    .display-3 {
+        font-size: 30px;
+    }
 }

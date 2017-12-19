@@ -60,7 +60,10 @@ body {
     background-color: black;
 }
 /* MOBILE LAYOUT */
-
+.navbar-toggler-icon {
+    border-color: white;
+    color: white;
+}
 @media screen and (max-width: 480px) {
     body {
         background-image: url('../img/mobile-bg.PNG');
@@ -71,7 +74,7 @@ body {
     .navbar {
         background-color: black !important;
     }
-    video {
+    video .intro {
         display: none;
     }
 }

@@ -62,6 +62,10 @@ body {
 /* MOBILE LAYOUT */
 
 @media screen and (max-width: 480px) {
+    body {
+        background-image: url('../img/mobile-bg.PNG');
+        background-size: cover;
+    }
     .navbar {
         background-color: black !important;
     }

@@ -65,7 +65,7 @@ body {
     color: white;
 }
 @media screen and (max-width: 480px) {
-    body {
+    .intro {
         background-image: url('../img/mobile-bg.PNG');
         background-repeat:no-repeat;
         background-size:cover;
@@ -74,10 +74,12 @@ body {
     .navbar {
         background-color: black !important;
     }
-    video .intro {
+    video {
         display: none;
+        visibility: hidden;
     }
     .display-3 {
         font-size: 30px;
+        font-weight: bold;
     }
 }

@@ -33,3 +33,10 @@ function resizeToCover() {
     jQuery('#video-background').scrollLeft((jQuery('video').width() - jQuery(window).width()) / 2);
     jQuery('#video-background').scrollTop((jQuery('video').height() - jQuery(window).height()) / 2);
 };
+
+$(function() {
+    $(document).scroll(function() {
+        var $nav = $('.bg-faded'); 
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});

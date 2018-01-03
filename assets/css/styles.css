@@ -5,11 +5,7 @@ body {
     background-size: cover;
 }
 
-.section-2 {
-    min-width: 100%;
-    background-color: white;
-    min-height: 700px;
-}
+
 
 .nav-white {
     color: white !important;
@@ -51,7 +47,9 @@ body {
     vertical-align: middle;
     width: 100% !important;
 }
-
+.section-2 {
+    background-color: transparent !important;
+}
 .bg-faded.scrolled {
     background-color: black !important;
     transition: background-color 200ms linear;
@@ -75,6 +73,14 @@ body {
         background-position:center;
         background-attachment: scroll;
     }
+    .section-2 {
+        background-image: url('../img/mobile-bg2copy.PNG');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: scroll;
+        height: 100vh;
+    }
     .navbar {
         background-color: black !important;
     }
@@ -85,5 +91,8 @@ body {
     .display-3 {
         font-size: 30px;
         font-weight: bold;
+    }
+    .mobile-cntr {
+        text-align: center;
     }
 }

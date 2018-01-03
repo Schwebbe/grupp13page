@@ -65,11 +65,15 @@ body {
     color: white;
 }
 @media screen and (max-width: 480px) {
+    body {
+        background-color: black !important;
+    }
     .intro {
         background-image: url('../img/mobile-bg.PNG');
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center;
+        background-attachment: scroll;
     }
     .navbar {
         background-color: black !important;

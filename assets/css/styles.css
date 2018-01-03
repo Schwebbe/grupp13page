@@ -81,6 +81,22 @@ body {
         background-attachment: scroll;
         height: 100vh;
     }
+    .section-3 {
+        background-image: url('../img/mobile-bg3.PNG');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: scroll;
+        height: 100vh;
+    }
+    .section-4 {
+        background-image: url('../img/mobile-bg4.PNG');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: scroll;
+        height: 100vh;
+    }
     .navbar {
         background-color: black !important;
     }

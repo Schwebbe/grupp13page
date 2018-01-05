@@ -111,4 +111,7 @@ body {
     .mobile-cntr {
         text-align: center;
     }
+    .pdng-mbl {
+        margin-top: 40px;
+    }
 }
